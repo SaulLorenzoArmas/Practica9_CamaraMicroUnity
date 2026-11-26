@@ -9,7 +9,7 @@ Para este primer ejercicio se reutilizó la escena de los guerreros y se añadi�
 Mediante el script `Ejercicio1_sonido`, se programó el evento de colisión `OnTriggerEnter` para detectar el momento en el que el guerrero alcanza el objetivo y ejecutar `audioSource.Play()`, reproduciendo el sonido en ese instante.
 
 <p align="center">
-  <img src="imagenes/ejercicio1.gif" width="80%" alt="Demostración Ejercicio 1">
+  <img src="imagenes/Ejercicio1.gif" width="80%" alt="Demostración Ejercicio 1">
 </p>
 
 ## Ejercicio 2
@@ -19,7 +19,7 @@ En el segundo ejercicio se montó una escena en una sala con una pantalla centra
 Para gestionar el audio se creó el script `Ejercicio2_Altavoces`, que detecta el micrófono disponible con `Microphone.devices` y lo vincula al `AudioSource` de los altavoces. Al mantener pulsada la tecla **R** se inicia la grabación con `Microphone.Start`, y al soltarla se detiene con `Microphone.End` para reproducir automáticamente lo grabado por los altavoces.
 
 <p align="center">
-  <img src="imagenes/ejercicio2.gif" width="80%" alt="Demostración Ejercicio 2">
+  <img src="imagenes/Ejercicio2.gif" width="80%" alt="Demostración Ejercicio 2">
 </p>
 
 ## Ejercicios 3, 4 y 5
