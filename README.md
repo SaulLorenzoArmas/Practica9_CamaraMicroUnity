@@ -4,7 +4,7 @@ En esta práctica se ha trabajado con los componentes de entrada multimedia de U
 
 ## Ejercicio 1
 
-Para este primer ejercicio se reutilizó la escena de los guerreros y se añadió un componente `AudioSource` con uno de los clips de audio de la práctica (desactivando *`Play On Awake`* para que no sonara al iniciar la escena). 
+Para este primer ejercicio se reutilizó la escena de los guerreros y se añadió un componente `AudioSource` con uno de los clips de audio de la práctica (desactivando `Play On Awake` para que no sonara al iniciar la escena). 
 
 Mediante el script `Ejercicio1_sonido`, se programó el evento de colisión `OnTriggerEnter` para detectar el momento en el que el guerrero alcanza el objetivo y ejecutar `audioSource.Play()`, reproduciendo el sonido en ese instante.
 
